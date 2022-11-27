@@ -1,38 +1,88 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  
+}
+.cont{
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.fis{
+  text-decoration: underline;
+  color: rgb(49, 100, 195);
+  font-size: larger;
+  margin-left: -18%;
+}
+.input{
+  width: 30%;
+  height: 40px; 
+}
+.labels{
+  margin-left: -22%;
+}
+.labelf{
+  margin-left: -23%;
+  text-decoration: underline;
+
+}
+.labelf:hover{
+  background-color: cornflowerblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.labelp{
+  margin-left: -26%;
+  margin-top: 5%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pass{
+  margin-top: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.btn{
+  width: 30%;
+  height: 40px;
+  background-color: rgb(52, 206, 233);
 }
+.btn:hover{
+  background-color: rgb(26, 101, 221);
+}
+.btnc{
+  margin-top: 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.txt{
+  margin-left: -110px;
+}
+.p{
+  margin-left: -50px;
+
+}
+.h1{
+  margin-left: -90px;
+
+}
+.p2{
+  margin-left: -90px;
+}
+.ash{
+  text-decoration: underline;
+}
+.line{
+  width: 500px;
+}
+.h4{
+  margin-left: -110px;
+
+}
+.p4{
+  margin-left: -230px;
+
+}
+.anch{
+  text-decoration: underline;
+}
+.bot{
+  width: 1700px;
+}
+.p0{
+  margin-bottom: 150px;
 }
